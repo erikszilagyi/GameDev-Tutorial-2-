@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 121.0
+margin_top = 43.0
+margin_right = 212.0
+margin_bottom = 82.0
+text = "Hello Charlie
+"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 375.0
+margin_top = 165.0
+margin_right = 658.0
+margin_bottom = 243.0
+text = "This is very weird looking
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 215, 241 )
+scale = Vector2( 2.82813, 2.9375 )
+texture = ExtResource( 1 )
